@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #fff; 
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-derecha {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.header-izquierda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.logo h1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.search-btn img {
+    width: 14px;
+    height: 14px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
+.portada {
+    padding: 60px 0;
+}
+
+.portada-image {
+    flex: 1;
+}
+
+.portada-image img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 8px;
+}
+
+
+header {
+    padding: 18px 24px;
+}
+
+
+.search-btn {
+   
+    width: 36px;
+    height: 36px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #f7f7f7;
+}
+
+.search-btn img {
+    width: 16px;
+    height: 16px;
+}
+
+
+.portada-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.portada-text {
+    flex: 1;
+}
+
+.portada-text h2 {
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.portada-text p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #e91e63;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.arrangements {
+    padding: 60px 0;
+}
+
+
+.arrangements-grid {
+    display: flex;
+    justify-content: flex-start;
+    gap: 28px;
+}
+
+.arrangement-card img {
+    width: 100%;
+    height: 301px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.arrangement-card p {
+    color: #A0522D;
+    font-size: 12px;
+}
+
+.testimonials {
+    padding: 60px 0;
+}
+
+.testimonials h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0 16px;
+    text-align: left;
+}
+
+.testimonials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 900px;
+}
+
+.testimonial-item {
+    text-align: left;
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    margin: 0;
+    color: #3b3b3b;
+    line-height: 1.7;
+    font-style: normal;
+}
+
+
+
+.testimonials-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
+footer {
+    padding: 60px 24px;
+    margin-top: 40px;
+}
+
+.PieDePagina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+    gap: 12px;
+}
+
+.PieDePagina a {
+    text-decoration: none;
+    color: #A0522D; 
+    font-size: 15px;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 4px 0 16px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    border-radius: 0; 
+    padding: 0;
+
+
+}
+
+.PieDePaginaa {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.PieDePaginaa p {
+    color: #A0522D;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
